@@ -108,4 +108,8 @@ a {
   .projectContainer {
     width: 90%;
   }
+
+  .navbar {
+    width: 90%;
+  }
 }
