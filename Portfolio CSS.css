@@ -100,6 +100,19 @@ a {
   width: 25em;
 }
 
+#contactform {
+  border: solid 1px #ffffff;
+  padding: 1em;
+  border-radius: 10px;
+  width: 22em;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff15;
+}
+
+#submit {
+  text-align: center;
+}
 .projectContainer h2 {
   margin: 0;
 }
