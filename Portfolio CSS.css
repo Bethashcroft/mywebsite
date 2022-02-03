@@ -2,6 +2,9 @@
   width: 20%;
 }
 
+html {
+  font-family: century gothic;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -128,6 +131,5 @@ a {
     width: 80%;
     flex-direction: column;
     justify-content: space-between;
-    font-family: Century Gothic;
   }
 }
