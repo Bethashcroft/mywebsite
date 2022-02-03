@@ -128,8 +128,15 @@ a {
   }
 
   .navbar {
-    width: 80%;
     flex-direction: column;
-    display: inline-block;
+  }
+
+  .navbar > li {
+    width: 30%;
+    padding: 0.3em;
+    background-color: #ffffff15;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 5px;
   }
 }
