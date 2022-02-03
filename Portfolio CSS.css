@@ -136,7 +136,8 @@ a {
   }
 
   .navbar > li {
-    width: 30%;
+    width: 97%;
+    text-align: center;
     padding: 0.3em;
     background-color: #ffffff15;
     text-decoration: none;
