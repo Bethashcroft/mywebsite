@@ -120,12 +120,13 @@ a {
 
 @media (max-width: 768px) {
   .projectContainer,
-  .contactform {
+  #contactform {
     width: 90%;
   }
 
   .navbar {
     width: 80%;
+    flex-direction: column;
     justify-content: space-between;
   }
 
