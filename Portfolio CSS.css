@@ -3,7 +3,7 @@
 }
 
 html {
-  font-family: century gothic;
+  font-family: Century Gothic;
 }
 .navbar {
   display: flex;
@@ -130,6 +130,6 @@ a {
   .navbar {
     width: 80%;
     flex-direction: column;
-    justify-content: space-between;
+    display: inline-block;
   }
 }
