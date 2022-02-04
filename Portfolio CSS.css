@@ -2,8 +2,8 @@
   width: 20%;
 }
 
-html {
-  font-family: Century Gothic;
+a {
+  text-decoration: none;
 }
 .navbar {
   display: flex;
@@ -11,6 +11,16 @@ html {
   list-style: none;
   margin: 0;
   padding: 0;
+  gap: 10px;
+}
+
+.navbar > li {
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #ffffff15;
+  border: 2px solid;
+  border-radius: 5px;
 }
 
 .experiencetable,
@@ -140,7 +150,6 @@ a {
     text-align: center;
     padding: 0.3em;
     background-color: #ffffff15;
-    text-decoration: none;
     border: 2px solid;
     border-radius: 5px;
   }
