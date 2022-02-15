@@ -124,6 +124,10 @@ a {
   background: #ffffff15;
 }
 
+#message {
+  width: 75%;
+}
+
 #submit {
   text-align: center;
 }
