@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap");
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
 .picofme {
   width: 20%;
 }
@@ -56,7 +62,6 @@ td {
   border-style: solid;
   border-color: black;
   border-collapse: collapse;
-  font-family: Century Gothic;
   font-size: medium;
   justify-content: center;
   justify-content: space-between;
@@ -69,32 +74,27 @@ td {
 }
 
 .contactme {
-  font-family: Century Gothic;
   font-size: medium;
 }
 
 .homepage {
   background-color: darkslategrey;
   color: white;
-  font-family: Century Gothic;
 }
 
 .goalspage {
   background-color: darkslategrey;
   color: white;
-  font-family: Century Gothic;
 }
 
 .projectspage {
   background-color: darkslategrey;
   color: white;
-  font-family: Century Gothic;
 }
 
 .contactme {
   background-color: darkslategrey;
   color: white;
-  font-family: Century Gothic;
 }
 
 a {
@@ -123,15 +123,21 @@ a {
 #contactform {
   border: solid 1px #ffffff;
   padding: 1em;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 22em;
   display: flex;
   flex-direction: column;
   background: #ffffff15;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #message {
+  height: 100px;
   width: 75%;
+  padding-top: 1em;
+  padding-bottom: 10em;
+  box-sizing: border-box;
 }
 
 #submit {
@@ -143,7 +149,7 @@ a {
 
 @media (max-width: 768px) {
   html {
-    font-family: Century Gothic;
+    font-family: "Plus Jakarta Sans", sans-serif;
   }
   .projectContainer,
   #contactform {
