@@ -10,6 +10,8 @@
 
 a {
   text-decoration: none;
+  display: list-item;
+  list-style-type: none;
 }
 .navbar {
   display: flex;
