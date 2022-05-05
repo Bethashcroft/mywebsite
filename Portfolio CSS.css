@@ -122,24 +122,40 @@ a {
   width: 25em;
 }
 
+#centrealign {
+  display: flex;
+  justify-content: center;
+}
+
 #contactform {
+  display: flex;
+  flex-direction: column;
   border: solid 1px #ffffff;
   padding: 1em;
   border-radius: 20px;
   width: 22em;
-  display: flex;
-  flex-direction: column;
   background: #ffffff15;
   margin-left: auto;
   margin-right: auto;
 }
 
 #message {
+  display: flex;
+  flex-direction: column;
   height: 100px;
-  width: 75%;
+  width: 100%;
   padding-top: 1em;
   padding-bottom: 10em;
   box-sizing: border-box;
+}
+
+#fname,
+#lname,
+#phonenum,
+#email {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 #submit {
