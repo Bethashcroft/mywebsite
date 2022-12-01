@@ -10,7 +10,7 @@
 
 a {
   text-decoration: none;
-  display: list-item;
+  display: inline-block;
   list-style-type: none;
 }
 .navbar {
@@ -75,10 +75,6 @@ td {
   margin-right: auto;
 }
 
-.contactme {
-  font-size: medium;
-}
-
 .homepage {
   background-color: darkslategrey;
   color: white;
@@ -97,6 +93,7 @@ td {
 .contactme {
   background-color: darkslategrey;
   color: white;
+  font-size: medium;
 }
 
 a {
