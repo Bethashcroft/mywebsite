@@ -6,6 +6,10 @@
 
 .picofme {
   width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
 }
 
 a {
@@ -31,6 +35,12 @@ a {
   border-radius: 5px;
 }
 
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
 .experiencetable,
 th,
 tr,
@@ -98,6 +108,7 @@ td {
 
 a {
   color: white;
+  text-decoration: underline;
 }
 
 #projects {
